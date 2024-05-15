@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "s3test" {
-    bucket = "cba_jenkins_terraform_bucket"
+    bucket = "cba-jenkins-terraform-bucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "s3test" {
